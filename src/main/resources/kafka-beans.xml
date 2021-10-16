@@ -11,7 +11,7 @@
         <constructor-arg>
             <props>
                 <prop key="topic">my-replicated-topic</prop>
-                <prop key="bootstrap.servers">35.228.204.58:9092</prop>
+                <prop key="bootstrap.servers">35.228.100.147:9092</prop>
 <!--                <prop key="bootstrap.servers">localhost:9092</prop>-->
                 <prop key="acks">all</prop>
                 <prop key="key.serializer">org.apache.kafka.common.serialization.StringSerializer
